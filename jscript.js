@@ -6,7 +6,7 @@ var myQuestions = [
     },
     {
       question: "What does HTML stand for?",
-      answerChoices: ["hyper text mark up language", "hyper processor message language", "hyper text management language?"],
+      answerChoices: ["Hyper text mark up language", "hyper processor message language", "hyper text management language?"],
       correctAnswer: "Hyper text mark up language"
     },
     {
@@ -22,7 +22,7 @@ var myQuestions = [
     {
       question: "how does javascript affect a web page?",
       answerChoices: ["creates a basic web page layout?", "styling websites?", "adds automation, animations and interactivity to Web pages.?"],
-      correctAnswer: "adds automation, animations and interactivity to Web pages.?"
+      correctAnswer: "adds automation, animations and interactivity to Web pages."
     }
   ];
 
@@ -38,27 +38,26 @@ var mainContainer = document.querySelector(".main-container");
 var header = document.querySelector("header");
 var body = document.querySelector("body");
 
-var timerCount = 60;
+var timerCount = 50;
 var timePenalty = -10;
 var timerInterval;
 var timeEnd = 0;
 var index = 0;
 var score = 0;
 
-function renderQuiz (index) {
-
+function renderQuiz () {
+console.log(index)
   questionContainer.setAttribute("class", "question-start");
   answerContainer.setAttribute("class", "answer-start");
   
   questionContainer.textContent = "";
   createUlEl.textContent = "";
-
-  for (var i = 0; i < myQuestions.length; i++){
+  
 
     var addQuestion = myQuestions[index].question;
     var addChoices = myQuestions[index].answerChoices;
     questionContainer.textContent = addQuestion;
-  }
+  
    
   addChoices.forEach(function (newInput){
     var listEl = document.createElement("li");
@@ -78,12 +77,14 @@ function result(event){
     if (listEl.textContent == myQuestions[index].correctAnswer){
       score++; 
       solution.textContent = "Correct! The answer is " +  myQuestions[index].correctAnswer;
-      renderQuiz(index++)
+index++
+      renderQuiz()
       console.log("correct")
     } else {
       timerCount = timerCount + timePenalty;
       solution.textContent = "Wrong! The right answer is " +  myQuestions[index].correctAnswer;
-      renderQuiz(index++);
+      index++
+      renderQuiz();
       console.log("wrong")
     }
     return;
@@ -118,7 +119,7 @@ function showEndScreen (){
   subContainer.remove();
   var pEl = document.createElement("p");
 
-  mainContainer.textContent = "Time is over!";
+  mainContainer.textContent = "Times up!";
 
   mainContainer.appendChild(pEl);
 

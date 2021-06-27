@@ -29,6 +29,8 @@ header h1 {
 
 .quiz-box {
     padding: 40px;
+    border: 50px;
+    float:left
 }
 
 .start-button {

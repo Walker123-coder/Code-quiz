@@ -21,7 +21,7 @@ var myQuestions = [
     },
     {
       question: "how does javascript affect a web page?",
-      answerChoices: ["creates a basic web page layout?", "styling websites?", "adds automation, animations and interactivity to Web pages.?"],
+      answerChoices: ["creates a basic web page layout?", "styling websites?", "adds automation, animations and interactivity to Web pages."],
       correctAnswer: "adds automation, animations and interactivity to Web pages."
     }
   ];

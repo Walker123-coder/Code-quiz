@@ -7,7 +7,7 @@ The finished application is a code quiz on what we have learnt so far in class.
 3. webpage behaviour.
 4. mock up.
 ## Task description
-I wanted to combine all the knowledge ive learned so far in the bootcamp and at university to make a functioning weather app.
+I wanted to combine all the knowledge ive learned so far in the bootcamp and at university to make a code quiz.
 
 
 ## webpage behaviour
@@ -16,7 +16,7 @@ I wanted to combine all the knowledge ive learned so far in the bootcamp and at 
 3. if u get an answer wrong time will get subtracted.
 4. if u get an answer right time will be added on.
 5. if u fail too many questions the time will stop declaring game over.
-6. if u get all questions right u will be declared winner
+6. if u get all questions right u will be declared winner.
 
 
 ## Mock up

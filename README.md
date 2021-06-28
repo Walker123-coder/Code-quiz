@@ -11,9 +11,15 @@ I wanted to combine all the knowledge ive learned so far in the bootcamp and at 
 
 
 ## webpage behaviour
-* When opening the web app you will be presented with a start quiz option.
-* when u press start the timer will start counting down.
-* if u get an answer wrong time will get subtracted.
-*if u get an answer right time will be added on.
-*if u answer all questions wrong u will be presented with a game over screen.
-*when all qustions have been ended the timer will stop declaring a winner.
+1. When opening the web app you will be presented with a start quiz option.
+2. when u press start the timer will start counting down.
+3. if u get an answer wrong time will get subtracted.
+4. if u get an answer right time will be added on.
+5. if u fail too many questions the time will stop declaring game over.
+6. if u get all questions right u will be declared winner
+
+
+## Mock up
+![code quiz](https://user-images.githubusercontent.com/82131650/123609630-2e87eb00-d843-11eb-92bf-f64d7db1505c.png)
+
+

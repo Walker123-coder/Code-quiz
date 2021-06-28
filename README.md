@@ -15,5 +15,5 @@ I wanted to combine all the knowledge ive learned so far in the bootcamp and at 
 * when u press start the timer will start counting down.
 * if u get an answer wrong time will get subtracted.
 *if u get an answer right time will be added on.
-if u answer all questions wrong u will be presented with a game over screen.
-*when all qustions have been ended the timer will stop declaring a winner
+*if u answer all questions wrong u will be presented with a game over screen.
+*when all qustions have been ended the timer will stop declaring a winner.
